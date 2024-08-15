@@ -89,8 +89,8 @@ body {
   min-height: 40px;
   border: 0px solid #1c63f2;
   border-radius: 10px;
-  background-color: white;
-  color: #1c63f2;
+  background-color: rgb(20, 214, 30);
+  color: white;
   font-weight: 600;
   transition: 200ms;
 }
