@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.container {
+  box-shadow: 0px 5px 10px 0px rgb(180, 180, 180);
+  min-height: 400px;
+  min-width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form .input-filed {
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+  padding: 20px;
+}
+
+label {
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.input-filed input[type="username"],
+.input-filed input[type="password"] {
+  min-height: 50px;
+  border: 1px solid rgba(128, 128, 128, 0.322);
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.opsi {
+  display: flex;
+  gap: 140px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.opsi button {
+  border: none;
+  background-color: rgb(18, 128, 201);
+  min-width: 65px;
+  min-height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+}
+
+/* #kotak{
+    display: none;
+}
+
+#button:hover #kotak{
+    display: block;
+} */
+
+.opsi p a {
+  text-decoration: none;
+  color: rgb(18, 128, 201);
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  padding-top: 20px;
+  color: rgb(102, 102, 102);
+}
