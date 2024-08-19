@@ -14,6 +14,10 @@ body {
   min-width: 480px;
 }
 
+main {
+  background-color: #fff;
+}
+
 .head-container {
   max-width: 480px;
   min-height: 100vh;
@@ -132,7 +136,7 @@ p {
 
 .more-description button {
   min-width: 115px;
-  min-height: 25px;
+  min-height: 30px;
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
   font-weight: 800;
@@ -140,4 +144,83 @@ p {
   background-color: rgb(224, 120, 45);
   color: #fff;
   border: none;
+}
+
+.check-out {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 480px;
+  padding-top: 45px;
+}
+
+.check-out .checkout-description {
+  padding: 40px;
+  text-align: justify;
+}
+
+.checkout-description h4 {
+  color: rgb(224, 120, 45);
+  font-family: "Pacifico", sans-serif;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.checkout-description h3,
+p {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 15px;
+}
+
+.checkout-description button {
+  min-width: 115px;
+  min-height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  background-color: rgb(224, 120, 45);
+  color: #fff;
+  border: none;
+}
+
+.container-card {
+  background-color: gray;
+  min-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-card .checkout-card {
+  background-color: aqua;
+  min-width: 400px;
+  min-height: 420px;
+}
+.checkout-card .card-img {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 400px;
+  min-height: 350px;
+}
+
+.card-img img {
+}
+
+.checkout-card .checkout-card-description {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.checkout-card-description p {
+  color: rgb(224, 120, 45);
+  font-weight: 600;
 }
