@@ -87,7 +87,6 @@ body {
 }
 
 .more {
-  background-color: gray;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,7 +97,7 @@ body {
 
 .more .kotak {
   background-color: gold;
-  border: 5px solid rgb(224, 120, 45);
+  border: 8px solid rgb(224, 120, 45);
   width: 400px;
   height: 250px;
   display: flex;
@@ -114,6 +113,31 @@ body {
 }
 
 .more .more-description {
-  padding: 45px;
+  padding: 40px;
   text-align: justify;
+}
+
+.more-description h4 {
+  color: rgb(224, 120, 45);
+  font-family: "Pacifico", sans-serif;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.more-description h3,
+p {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 15px;
+}
+
+.more-description button {
+  min-width: 115px;
+  min-height: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  background-color: rgb(224, 120, 45);
+  color: #fff;
+  border: none;
 }
