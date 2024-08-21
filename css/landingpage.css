@@ -230,7 +230,7 @@ img {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   padding: 40px;
 }
 
@@ -240,6 +240,8 @@ img {
   flex-direction: column;
   margin-top: 40px;
   min-height: 550px;
+  align-items: center;
+  position: relative;
 }
 
 .service-img {
@@ -253,14 +255,29 @@ img {
   object-fit: cover;
   width: 100%;
 }
-
-.circle {
+.container-circle {
   background-color: #fff;
+  border: 5px solid #fff;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 250px;
+}
+.circle {
+  background-color: rgba(224, 120, 45, 0.486);
   display: inline;
   border-radius: 100%;
   width: 60px;
   height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .circle i {
-  font-size: 50px;
+  font-size: 30px;
+  color: rgb(224, 120, 45);
 }
