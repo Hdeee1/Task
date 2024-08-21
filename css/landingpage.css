@@ -97,6 +97,7 @@ main {
   align-items: center;
   min-width: 480px;
   padding-top: 45px;
+  margin-top: 100px;
 }
 
 .more .kotak {
@@ -153,6 +154,8 @@ p {
   align-items: center;
   min-width: 480px;
   padding-top: 45px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .check-out .checkout-description {
@@ -219,34 +222,43 @@ img {
 }
 
 .services {
-  background-color: gray;
+  min-width: 480px;
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
+.services h3 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 40px;
+}
+.services h4 {
+  font-family: "Pacifico", sans-serif;
+  color: rgb(224, 120, 45);
+}
+
 .services .card-container-service {
-  background-color: green;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 40px;
+  padding: 10px 40px;
 }
 
 .card-service {
-  background-color: aqua;
+  background-color: #fff;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
-  min-height: 550px;
+  min-width: 400px;
+  min-height: 510px;
   align-items: center;
   position: relative;
 }
 
 .service-img {
   width: 400px;
-  height: 50%;
+  height: 275px;
   overflow: hidden;
   border-radius: 10px;
 }
@@ -265,7 +277,7 @@ img {
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 250px;
+  bottom: 210px;
 }
 .circle {
   background-color: rgba(224, 120, 45, 0.486);
@@ -280,4 +292,31 @@ img {
 .circle i {
   font-size: 30px;
   color: rgb(224, 120, 45);
+}
+
+.service-description {
+  text-align: center;
+  padding-top: 45px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.service-description h4 {
+  font-family: "Montserrat";
+}
+.service-description p {
+  font-size: 15px;
+  padding: 15px;
+}
+
+.card-service button {
+  margin-top: 10px;
+  min-width: 120px;
+  min-height: 30px;
+  background-color: rgb(224, 120, 45);
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  font-size: 13px;
 }
