@@ -418,9 +418,10 @@ input[type="email"] {
   min-width: 480px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   justify-content: center;
   align-items: center;
+  padding: 20px 0;
 }
 
 .footer-social-media a {
@@ -428,4 +429,10 @@ input[type="email"] {
   font-size: 30px;
   letter-spacing: 2rem;
   text-decoration: none;
+}
+
+.copyright {
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
 }
