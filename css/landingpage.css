@@ -324,3 +324,23 @@ img {
   letter-spacing: 2px;
   font-size: 13px;
 }
+.contact-container {
+  background-color: aqua;
+  font-family: "Montserrat", sans-serif;
+  min-width: 480px;
+  min-height: auto;
+  padding: 40px;
+  margin-top: 100px;
+}
+
+.contact .top {
+  display: flex;
+  gap: 10px;
+  color: rgb(224, 120, 45);
+  padding-bottom: 5px;
+}
+
+.contact p {
+  font-weight: 600;
+  font-size: 14px;
+}
